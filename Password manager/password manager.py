@@ -9,6 +9,10 @@ screen.title("Password manager")
 screen.minsize(800, 700)
 screen.resizable(True, True)
 
+
+#Svobodak14 je nejlepsi ucitel!<3
+
+
 #Funkce
 
 
