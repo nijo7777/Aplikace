@@ -2,7 +2,6 @@ from tkinter import *
 import random
 
 
-
 #Okno
 screen = Tk()
 screen.minsize(400,300)
