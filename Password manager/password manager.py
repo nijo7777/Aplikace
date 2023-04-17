@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import ttk
 import openpyxl
-
+#HEHEHEHE
 
 #Okno
 screen = Tk()
@@ -66,7 +66,7 @@ def quitting_app():
 
 #Framy
 adding_frame = Frame(screen)
-adding_frame. pack()
+adding_frame.pack()
 
 list_frame = Frame(screen)
 list_frame.pack()
