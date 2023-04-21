@@ -42,76 +42,30 @@ def generate_team():
     min_value = min_scale_meter.get()
     league = variable.get()
     if league == "Anglie" and min_value == 5 and max_value == 5:
-        random_index_1 = random.randint(0, len(team_lists.england_list_5_star) - 1)
-        random_index_2 = random.randint(0, len(team_lists.england_list_5_star) - 1)
-        random_team_1 = team_lists.england_list_5_star[random_index_1]
-        random_team_2 = team_lists.england_list_5_star[random_index_2]
-        team_1.config(text=random_team_1)
-        team_2.config(text=random_team_2)
+        team_list = team_lists.england_list_5_star
     elif league == "Anglie" and min_value == 4.5 and max_value == 5:
-        random_index_1 = random.randint(0, len(team_lists.england_list_4half_to_5_star) - 1)
-        random_index_2 = random.randint(0, len(team_lists.england_list_4half_to_5_star) - 1)
-        random_team_1 = team_lists.england_list_4half_to_5_star[random_index_1]
-        random_team_2 = team_lists.england_list_4half_to_5_star[random_index_2]
-        team_1.config(text=random_team_1)
-        team_2.config(text=random_team_2)
+        team_list = team_lists.england_list_4half_to_5_star
     elif league == "Anglie" and min_value == 4 and max_value == 5:
-        random_index_1 = random.randint(0, len(team_lists.england_list_4_to_5_star) - 1)
-        random_index_2 = random.randint(0, len(team_lists.england_list_4_to_5_star) - 1)
-        random_team_1 = team_lists.england_list_4_to_5_star[random_index_1]
-        random_team_2 = team_lists.england_list_4_to_5_star[random_index_2]
-        team_1.config(text=random_team_1)
-        team_2.config(text=random_team_2)
+        team_list = team_lists.england_list_4_to_5_star
     elif league == "Anglie" and min_value == 3.5 and max_value == 5:
-        random_index_1 = random.randint(0, len(team_lists.england_list_3half_to_5_star) - 1)
-        random_index_2 = random.randint(0, len(team_lists.england_list_3half_to_5_star) - 1)
-        random_team_1 = team_lists.england_list_3half_to_5_star[random_index_1]
-        random_team_2 = team_lists.england_list_3half_to_5_star[random_index_2]
-        team_1.config(text=random_team_1)
-        team_2.config(text=random_team_2)
+        team_list = team_lists.england_list_3half_to_5_star
     elif league == "Anglie" and min_value == 4.5 and max_value == 4.5:
-        random_index_1 = random.randint(0, len(team_lists.england_list_4half_star) - 1)
-        random_index_2 = random.randint(0, len(team_lists.england_list_4half_star) - 1)
-        random_team_1 = team_lists.england_list_4half_star[random_index_1]
-        random_team_2 = team_lists.england_list_4half_star[random_index_2]
-        team_1.config(text=random_team_1)
-        team_2.config(text=random_team_2)
+        team_list = team_list.england_list_4half_star
     elif league == "Anglie" and min_value == 4 and max_value == 4.5:
-        random_index_1 = random.randint(0, len(team_lists.england_list_4_to_4half_star) - 1)
-        random_index_2 = random.randint(0, len(team_lists.england_list_4_to_4half_star) - 1)
-        random_team_1 = team_lists.england_list_4_to_4half_star[random_index_1]
-        random_team_2 = team_lists.england_list_4_to_4half_star[random_index_2]
-        team_1.config(text=random_team_1)
-        team_2.config(text=random_team_2)
+        team_list = team_lists.england_list_4_to_4half_star
     elif league == "Anglie" and min_value == 3.5 and max_value == 4.5:
-        random_index_1 = random.randint(0, len(team_lists.england_list_3half_to_4half_star) - 1)
-        random_index_2 = random.randint(0, len(team_lists.england_list_3half_to_4half_star) - 1)
-        random_team_1 = team_lists.england_list_3half_to_4half_star[random_index_1]
-        random_team_2 = team_lists.england_list_3half_to_4half_star[random_index_2]
-        team_1.config(text=random_team_1)
-        team_2.config(text=random_team_2)
+        team_list = team_lists.england_list_3half_to_4half_star
     elif league == "Anglie" and min_value == 4 and max_value == 4:
-        random_index_1 = random.randint(0, len(team_lists.england_list_4_star) - 1)
-        random_index_2 = random.randint(0, len(team_lists.england_list_4_star) - 1)
-        random_team_1 = team_lists.england_list_4_star[random_index_1]
-        random_team_2 = team_lists.england_list_4_star[random_index_2]
-        team_1.config(text=random_team_1)
-        team_2.config(text=random_team_2)
+        team_list = team_lists.england_list_4_star
     elif league == "Anglie" and min_value == 3.5 and max_value == 4:
-        random_index_1 = random.randint(0, len(team_lists.england_list_3half_to_4_star) - 1)
-        random_index_2 = random.randint(0, len(team_lists.england_list_3half_to_4_star) - 1)
-        random_team_1 = team_lists.england_list_3half_to_4_star[random_index_1]
-        random_team_2 = team_lists.england_list_3half_to_4_star[random_index_2]
-        team_1.config(text=random_team_1)
-        team_2.config(text=random_team_2)
+        team_list = team_lists.england_list_3half_to_4_star
     elif league == "Anglie" and min_value == 3.5 and max_value == 3.5:
-        random_index_1 = random.randint(0, len(team_lists.england_list_3half_star) - 1)
-        random_index_2 = random.randint(0, len(team_lists.england_list_3half_star) - 1)
-        random_team_1 = team_lists.england_list_3half_star[random_index_1]
-        random_team_2 = team_lists.england_list_3half_star[random_index_2]
-        team_1.config(text=random_team_1)
-        team_2.config(text=random_team_2)
-
+        team_list = team_lists.england_list_3half_star
+    random_indexes = random.sample(range(len(team_list)),2)
+    random_team_1 = team_list[random_indexes[0]]
+    random_team_2 = team_list[random_indexes[1]]
+    team_1.config(text=random_team_1)
+    team_2.config(text=random_team_2)
     return
 
 
